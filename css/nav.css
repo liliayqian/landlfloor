@@ -11,6 +11,7 @@ nav ul li{
 }
 nav li a{
 	text-decoration: none;
+	color:black;
 }
 nav li a:hover{
 	text-decoration: none;
@@ -57,13 +58,15 @@ nav ul {
 footer{
 	font-size: 15px;
 	text-align: center;
-	margin: 0px 0px 0px 0px;
+	margin-top:80px;
 	padding-top: 80px;
 	padding-bottom:20px;
 	background-color:gray;
 	color:white;
 /*	text-transform: uppercase;
 */	font-family: 'IBM Plex Sans', sans-serif;
+margin-left:0;
+margin-right:0;
 
 }
 
@@ -120,3 +123,10 @@ font-family: 'IBM Plex Sans', sans-serif;
 	background-color: lightgray;
 }
 
+
+figcaption{
+	font-family: 'IBM Plex Sans', sans-serif;
+	text-align:center;
+	padding-top:5px;
+	font-size:14px;
+}
