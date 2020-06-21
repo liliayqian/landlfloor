@@ -1,126 +1,27 @@
-/*navigation*/
-nav{
-	width: 100%
-}
-nav ul {
-	margin: 0;
-	padding: 0px;
-	padding-bottom:20px;
-}
-nav ul li{
-	display: inline-block;
-	margin: 0;
-	padding: 0;
-	font-size: 16px;
+nav.navbar-light{
+	background-color:white;
 	font-family: 'IBM Plex Sans', sans-serif;
 }
 
-nav li a{
-	text-decoration: none;
-	color:black;
-}
-nav li a:hover{
-	text-decoration: none;
-	opacity:0.4; 
-}
-@media (min-width: 768px) {
-.navbar-brand.abs
-    {
-        position: absolute;
-        left: 0;
-        text-align: center;
-    }
+.dropdown-menu{
+	display:flex;
+    flex-wrap:wrap;
+    width:100px;
+}   
 
-/*.button {
-	font-family: 'IBM Plex Sans', sans-serif;
-	border: 1px solid black;
-	background-color:white;
-	text-decoration: none;
-	color: black;
-	padding: 10px 20px;
-	margin-left: 10px;
-	margin-right:10px;
-	margin-top: 30px;
-	margin-bottom: 30px;
-	display: inline-grid;
-	border-radius: 5px;
-	transition: background 0.1s ease-in-out, color 0.1s ease-in-out;
-}
-.button:hover{
-	background-color:white;
-	color: black;
-	text-decoration:none;
-	border: 1px solid #ec9640;
-}*/
-
-
-
-/* footer */
 footer{
 	font-size: 15px;
 	text-align: center;
 	margin-top:80px;
-	margin-left:0;
-	margin-right:0;
-	padding-top: 80px;
-	padding-bottom:20px;
+	margin-left:0px;
+	margin-right:0px;
+	padding-top: 50px;
+	padding-bottom:30px;
+	margin-bottom:0px;
 	background-color:gray;
 	color:white;
 	font-family: 'IBM Plex Sans', sans-serif;
 }
-
-/* Dropdown Button */
-.dropbtn {
-	background-color:white;
-	padding: 16px;
-	font-size: 16px;
-	font-family: 'IBM Plex Sans', sans-serif;
-	border: none;
-	color:gray;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-	display: none;
-	position: absolute;
-	background-color: white;
-	min-width: 160px;
-	z-index: 1;
-	font-family: 'IBM Plex Sans', sans-serif;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align:center;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {
-	text-decoration: none;
-	color:black;
-	background-color:lightgray;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-	display: block;
-}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-	background-color: lightgray;
-}
-
 
 figcaption{
 	font-family: 'IBM Plex Sans', sans-serif;

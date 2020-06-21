@@ -1,10 +1,10 @@
 header h1{
 	font-family: 'IBM Plex Sans', sans-serif;
 	text-align:center;
-	margin-bottom: 20px;
-	margin-top:50px;
-}
+	margin-top:100px;
+	padding-top:60px;
 
+}
 header p{
 	font-family: 'IBM Plex Sans', sans-serif;
 	text-align:center;
@@ -12,7 +12,6 @@ header p{
 	padding-right:50px;
 	margin-bottom:70px;
 }
-
 
 img.square{
 	width:350px;
@@ -25,8 +24,6 @@ section.last{
 	margin-bottom:80px;
 	padding-bottom:50px;
 }
-
-
 
 main{
 	padding-top:20px;
