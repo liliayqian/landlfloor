@@ -23,6 +23,11 @@ footer{
 	font-family: 'IBM Plex Sans', sans-serif;
 }
 
+footer p{
+	padding-left:30px;
+	padding-right:30px;
+}
+
 figcaption{
 	font-family: 'IBM Plex Sans', sans-serif;
 	text-align:center;
