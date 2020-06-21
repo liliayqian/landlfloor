@@ -21,20 +21,48 @@ header h1.homeh{
   	left: 50%;
  	transform: translate(-50%, -50%);
 	color:white;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:10px;
 }
 
 header h2.homeh{
 	font-family: 'IBM Plex Sans', sans-serif;
-	font-size:25px;
+	font-size: 25px;
 	text-align:center;
 	position: relative;
-  	top: 300px;
+  	top: 380px;
   	left: 50%;
  	transform: translate(-50%, -50%);
 	color:white;
 	font-style:italic;
+	padding-left:15px;
+	padding-right:15px;
 }
 
+@media screen and (max-width: 600px) {
+  header h2.homeh {
+    font-size: 4.5vw;
+    top: 360px;
+  }
+
+  header h1.homeh{
+  	font-size:14vw;
+  	top:330px;
+  }
+}
+
+@media screen and (max-width: 1400px) and (min-width:601px) {
+  header h2.homeh {
+    font-size: 1.8vw;
+    top: 360px;
+  }
+
+  header h1.homeh{
+  	font-size:6vw;
+  	top:330px;
+  }
+}
 header a{
 	font-family: 'IBM Plex Sans', sans-serif;
 	font-size:30px;
