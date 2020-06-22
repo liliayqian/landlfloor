@@ -3,12 +3,12 @@ body, html, header{
 }
 
 header{
-	background-image: url(../img/meg.jpg);
+	background-image: url(../img/thanos12.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 100%;
-	padding-bottom:30px;
+	max-height: auto;
+	max-width:100%
 }
 
 
@@ -39,7 +39,7 @@ header h2.homeh{
 	padding-left:15px;
 	padding-right:15px;
 }
-
+/*
 @media screen and (max-width: 600px) {
   header h2.homeh {
     font-size: 4.5vw;
@@ -62,7 +62,7 @@ header h2.homeh{
   	font-size:6vw;
   	top:330px;
   }
-}
+}*/
 header a{
 	font-family: 'IBM Plex Sans', sans-serif;
 	font-size:30px;
