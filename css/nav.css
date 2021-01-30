@@ -1,5 +1,5 @@
-nav.navbar-light{
-	background-color:white;
+nav{
+	background-color: #fff;
 	font-family: 'IBM Plex Sans', sans-serif;
 }
 
@@ -15,11 +15,13 @@ footer{
 	margin-top:80px;
 	margin-left:0px;
 	margin-right:0px;
+
 	padding-top: 50px;
 	padding-bottom:30px;
+
 	margin-bottom:0px;
 	background-color:gray;
-	color:white;
+	color: white;
 	font-family: 'IBM Plex Sans', sans-serif;
 }
 
